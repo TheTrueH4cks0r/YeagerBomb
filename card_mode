@@ -1,4 +1,6 @@
 #! /bin/bash
-sudo ifconfig wlan0 down
-sudo iwconfig wlan0 mode monitor
-sudo ifconfig wlan0 up
+nmcli --terse --fields DEVICE dev status|grep -v "eth0"|grep -v "lo">CARD
+wireless=$(awk {'print$1'} < test.txt) 
+sudo ifconfig $wireless down
+sudo iwconfig $wireless mode monitor
+sudo ifconfig $wireless up

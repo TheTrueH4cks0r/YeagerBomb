@@ -1,0 +1,7 @@
+#! /bin/bash
+cd .. 
+chmod 775 -R YeagerBomb
+cd YeagerBomb
+apt-get install idle3
+rm configure
+

@@ -1,5 +1,4 @@
 from datetime import datetime
-
 path=   str(datetime.now().date())
 per=    datetime.now()
 per_h=  str(per.hour)
