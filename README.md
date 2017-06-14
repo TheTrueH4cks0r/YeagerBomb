@@ -1,4 +1,20 @@
 # YeagerBomb Version 1.2.0
+
+YeagerBomb is a project in the development stage. The goal of the project is to combine a fast wifi(WPA,WEP,WPA2) cracker, and
+  enumerate the network. It is possible that the project will later to a vulnerability assessment, or pentest. This project
+  is for **EDUCATIONAL PURPOSES ONLY**. 
+
+**Yeagerbomb 1.2.0 will:**
+
+-use your EXTERNAL wireless card in promiscuous mode to cpature APs(Access Points) and routers **Note: YAY! You don't have to tell the script which wireless interface you are using **
+
+-create a folder with the current capture date, with you(the user) creating subfolders where all the data will be stored
+
+-the captured information and put it into two customized capture files, as well as the airodump-ng captured information
+
+
+
+**Installation Instructions:**
 1) Download the repository
 2) In your terminal:
 
